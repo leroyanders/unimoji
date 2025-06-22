@@ -1,0 +1,8 @@
+src/
+__tests__/
+emoji.json
+jest.config.js
+tsconfig.json
+*.ts
+*.test.ts
+scripts/

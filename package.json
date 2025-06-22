@@ -1,0 +1,32 @@
+{
+  "name": "unimoji",
+  "version": "1.2.0",
+  "license": "MIT",
+  "author": "Vadym Dordiienko",
+  "description": "A TypeScript emoji toolkit for parsing, formatting, and analyzing emojis in text.",
+  "keywords": [
+    "emoji",
+    "parser",
+    "text",
+    "typescript",
+    "unicode"
+  ],
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "generate:emoji": "ts-node src/scripts/generateEmojiJson.ts",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "@types/node": "^24.0.3",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.4.0",
+    "typescript": "^5.8.3"
+  },
+  "private": false,
+  "dependencies": {
+    "ts-node": "^10.9.2"
+  }
+}
